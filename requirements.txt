@@ -2,3 +2,4 @@ django
 black
 ruff
 django-taggit==3.0.0
+markdown==3.4.1
