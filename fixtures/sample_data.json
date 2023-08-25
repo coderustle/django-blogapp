@@ -1,0 +1,26 @@
+[
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$QIwMq5OGmNN2STKJIqTWA4$bU7Uk6pRqhgNUrM+SrXh0pf2ikaA9pNQvfxD9hhPlWI=",
+    "last_login": "2023-08-25T15:18:23.400Z",
+    "is_superuser": true,
+    "username": "demo",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-08-25T15:16:41.878Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sites.site",
+  "fields": {
+    "domain": "example.com",
+    "name": "example.com"
+  }
+}
+]
