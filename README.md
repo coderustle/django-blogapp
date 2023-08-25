@@ -5,7 +5,9 @@ This is a simple blog application written in Django 4.0. It is a good starting p
 - Create, update, delete posts
 - Markdown support
 - Pagination
+- Comments
 - RSS feed
+- Search
 - Tagging
 - Sitemap
 
