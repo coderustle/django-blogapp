@@ -134,3 +134,8 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+
+# FIXTURE
+# https://docs.djangoproject.com/en/4.1/ref/settings/#fixture-dirs
+# -----------------------------------------------------------------------------
+FIXTURE_DIRS = [BASE_DIR / "fixtures"]
