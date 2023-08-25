@@ -3,3 +3,6 @@ dumpdata:
 		--exclude=contenttypes \
 		--exclude=auth.permission \
 		--exclude=sessions > fixtures/sample_data.json
+
+loaddata:
+	python manage.py loaddata sample_data.json
