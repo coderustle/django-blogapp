@@ -1,107 +1,49 @@
-body {
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
     margin: 0;
     padding: 0;
-    font-family: helvetica, sans-serif;
-}
-
-a {
-    color: #00abff;
-    text-decoration: none;
-}
-
-h1 {
-    font-weight: normal;
-    border-bottom: 1px solid #bbb;
-    padding: 0 0 10px 0;
-}
-
-h2 {
-    font-weight: normal;
-    margin: 30px 0 0;
-}
-
-
-.content {
-    padding: 1rem 2rem;
-}
-
-.content .container {
-    max-width: 1300px;
-    margin: 0 auto;
-    display: grid;
-    gap: 1rem;
-}
-
-@media only screen and (min-width: 992px) {
-    .content .container {
-        grid-auto-flow: column;
-    }
-}
-
-.sidebar {
-    background: #efefef;
-    padding: 1rem 2rem;
-}
-
-p.date {
-    color: #ccc;
-    font-family: georgia, serif;
-    font-size: 12px;
-    font-style: italic;
-}
-
-/* pagination */
-.pagination {
-    margin: 40px 0;
-    font-weight: bold;
-}
-
-/* forms */
-label {
-    float: left;
-    clear: both;
-    color: #333;
-    margin-bottom: 4px;
-}
-
-input,
-textarea {
-    clear: both;
-    float: left;
-    margin: 0 0 10px;
-    background: #ededed;
     border: 0;
-    padding: 6px 10px;
-    font-size: 12px;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
-input[type=submit] {
-    font-weight: bold;
-    background: #00abff;
-    color: #fff;
-    padding: 10px 20px;
-    font-size: 14px;
-    text-transform: uppercase;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
 }
 
-.errorlist {
-    color: #cc0033;
-    float: left;
-    clear: both;
-    padding-left: 10px;
+body {
+    line-height: 1;
 }
 
-/* comments */
-.comment {
-    padding: 10px;
+ol, ul {
+    list-style: none;
 }
 
-.comment:nth-child(even) {
-    background: #efefef;
+blockquote, q {
+    quotes: none;
 }
 
-.comment .info {
-    font-weight: bold;
-    font-size: 12px;
-    color: #666;
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
 }
