@@ -17,10 +17,280 @@
   }
 },
 {
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "Embracing the Future with Django",
+    "slug": "embracing-the-future-with-django",
+    "author": [
+      "demo"
+    ],
+    "body": "The digital era is upon us, and with it comes a myriad of technological advancements that are changing the way we operate in the digital space. At the heart of many of these advancements is Django, the high-level Python Web framework that encourages rapid development and clean, pragmatic design.\r\n\r\nFrom its inception, Django has prioritized developer productivity, making it an essential tool for those wanting to build robust web applications without reinventing the wheel. With its built-in features for everything from authentication to database migrations, Django has empowered developers around the world to create scalable, maintainable, and secure web applications.\r\n\r\nAs we step further into the digital future, embracing tools like Django ensures not just a productive journey but also a successful and innovative one.",
+    "publish": "2023-08-25T15:25:13Z",
+    "created": "2023-08-25T15:27:52.002Z",
+    "updated": "2023-08-25T15:27:52.002Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "The Magic of Django's ORM",
+    "slug": "the-magic-of-djangos-orm",
+    "author": [
+      "demo"
+    ],
+    "body": "Object-relational mapping (ORM) is no new concept, but Django's approach to it is nothing short of magical. ORM allows developers to interact with databases, like you would with SQL. But instead of writing SQL code, you work with Python objects.\r\n\r\nWith Django's ORM, the pain of database interactions diminishes. Migrations become straightforward, relationships are a breeze, and queries transform into clear, readable Python methods.\r\n\r\nThe next time you’re diving deep into database design or just skimming your application’s data, remember the power and elegance you hold in your hands, thanks to Django's ORM.",
+    "publish": "2023-08-25T15:27:52Z",
+    "created": "2023-08-25T15:28:12.264Z",
+    "updated": "2023-08-25T15:28:12.264Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "Harnessing the Power of Django's Class-Based Views",
+    "slug": "harnessing-the-power-of-djangos-class-based-views",
+    "author": [
+      "demo"
+    ],
+    "body": "The evolution of web development in Django saw the introduction of class-based views (CBVs), a powerful feature that encapsulates common patterns for views into classes.\r\n\r\nCBVs promote DRY (Don't Repeat Yourself) principles, allowing developers to reuse code by extending base views. They provide mixins, bringing in standard functionalities like listing objects or displaying detail for an object, without any redundant boilerplate.\r\n\r\nUnderstanding and mastering CBVs can elevate your Django development skills, leading to more structured, maintainable, and scalable code.",
+    "publish": "2023-08-25T15:28:12Z",
+    "created": "2023-08-25T15:28:43.336Z",
+    "updated": "2023-08-25T15:28:43.336Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "Beyond the Basics: Advanced Security in Django",
+    "slug": "beyond-the-basics-advanced-security-in-django",
+    "author": [
+      "demo"
+    ],
+    "body": "Security is paramount in today's digital ecosystem, and Django has earned its reputation for being a framework that takes security seriously. While its built-in security features guard against common attacks, like CSRF and SQL injection, the advanced developer seeks to understand more.\r\n\r\nBy diving into Django’s middleware, custom user models, and secure password hashing, developers can reinforce their applications' defenses. Moreover, keeping updated with Django's regular releases ensures you're always shielded with the latest security patches.\r\n\r\nRemember, in the world of web applications, being proactive with security is always better than being reactive.",
+    "publish": "2023-08-25T15:28:43Z",
+    "created": "2023-08-25T15:29:09.459Z",
+    "updated": "2023-08-25T15:29:09.459Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "Making Web Applications Dynamic with Django and AJAX",
+    "slug": "making-web-applications-dynamic-with-django-and-ajax",
+    "author": [
+      "demo"
+    ],
+    "body": "User experience is at the forefront of modern web development. Creating dynamic applications that respond to users without reloading the page is part and parcel of today’s web standards. Enter AJAX - Asynchronous JavaScript and XML.\r\n\r\nDjango, being versatile, pairs beautifully with AJAX. Whether you're using jQuery, Axios, or Fetch API, integrating AJAX with Django opens doors to real-time functionalities: think instant form validations, dynamic content updates, and more.\r\n\r\nBy mastering the dance between Django and AJAX, you'll be crafting web experiences that users will love and return to, time and again.",
+    "publish": "2023-08-25T15:29:09Z",
+    "created": "2023-08-25T15:29:33.916Z",
+    "updated": "2023-08-25T15:29:33.916Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "Django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "ORM",
+    "slug": "orm"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "CBV",
+    "slug": "cbv"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "Security",
+    "slug": "security"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "AJAX",
+    "slug": "ajax"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 4,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 5,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 5
+  }
+},
+{
   "model": "sites.site",
   "fields": {
     "domain": "example.com",
     "name": "example.com"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-08-25T15:27:52.011Z",
+    "user": [
+      "demo"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "1",
+    "object_repr": "Embracing the Future with Django",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-08-25T15:28:12.272Z",
+    "user": [
+      "demo"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "2",
+    "object_repr": "The Magic of Django's ORM",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-08-25T15:28:43.344Z",
+    "user": [
+      "demo"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "3",
+    "object_repr": "Harnessing the Power of Django's Class-Based Views",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-08-25T15:29:09.467Z",
+    "user": [
+      "demo"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "4",
+    "object_repr": "Beyond the Basics: Advanced Security in Django",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-08-25T15:29:33.924Z",
+    "user": [
+      "demo"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "5",
+    "object_repr": "Making Web Applications Dynamic with Django and AJAX",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
   }
 }
 ]
