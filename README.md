@@ -21,3 +21,8 @@ This is a simple blog application written in Django 4.0. It is a good starting p
 3. Install dependencies with `pip install -r requirements.txt`
 4. Run migrations with `python manage.py migrate`
 5. Load sample data with `python manage.py loaddata sample_data.json`
+
+## Usage
+1. Run the development server with `python manage.py runserver`
+2. Open `http://localhost:8000` in your browser
+3. Login with username `demo` and password `demo`
