@@ -227,6 +227,20 @@ p {
     border: none;
 }
 
+.content .blog-detail-page {
+    display: grid;
+    gap: 1rem;
+}
+
+.content .blog-detail-page h1 {
+    text-align: center;
+    padding-bottom: 1rem;
+    border-bottom: 0.5px solid darkgray;
+}
+
+.content .blog-detail-page .date {
+    color: darkgray;
+}
 
 /*
  * ===========================================================
