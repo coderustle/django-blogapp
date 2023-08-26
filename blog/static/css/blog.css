@@ -248,6 +248,18 @@ p {
     color: darkgray;
 }
 
+.content .blog-detail-page .comment {
+    display: grid;
+    gap: 1rem;
+    background-color: lightgray
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.content .blog-detail-page .comment .info {
+    font-weight: 500;
+}
+
 .content .blog-detail-page .comment-form-container {
     display: flex;
     flex-direction: column;
