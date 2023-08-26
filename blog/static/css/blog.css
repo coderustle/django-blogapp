@@ -251,7 +251,7 @@ p {
 .content .blog-detail-page .comment {
     display: grid;
     gap: 1rem;
-    background-color: lightgray
+    background-color: lightgray;
     padding: 1rem;
     border-radius: 10px;
 }
